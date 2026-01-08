@@ -14,7 +14,7 @@ pipeline {
 	     }
              stage('Build Docker Image'){
                 steps{
-                    sh ' docker build -t $IMAGE_NAME -f  docker/Dockefile .'
+                    sh ' docker build -t $IMAGE_NAME -f  docker/Dockerfile .'
                 }
              }
 	     stage('Deploy to Kubernetes'){
