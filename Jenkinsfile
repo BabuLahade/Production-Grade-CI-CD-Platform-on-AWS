@@ -20,7 +20,7 @@ pipeline {
 	     stage('Deploy to Kubernetes'){
 		steps{
 		    sh '''
-		    sed -i "s|IMAGE_NAME|$IMAGE_NAME|g" kubernetes.yml
+		    sed -i "s|IMAGE_NAME|$IMAGE_NAME|g" kubernetes/deployment.yml
 		    kubectl apply -f . 
 		    '''
 		}
