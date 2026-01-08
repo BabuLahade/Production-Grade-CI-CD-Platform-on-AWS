@@ -21,7 +21,8 @@ pipeline {
 		steps{
 		    sh '''
 		    sed -i "s|IMAGE_NAME|$IMAGE_NAME|g" kubernetes/deployment.yml
-		    kubectl apply -f . 
+		    kubectl apply -f deployment.yml
+			kubectl apply -f service.yml
 		    '''
 		}
 	     }
