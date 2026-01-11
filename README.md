@@ -49,6 +49,8 @@ GitHub → Jenkins → Docker → Kubernetes → Monitoring
 
 ## 📸 Screenshots
 ## Monitoring Dashboard
+## Monitoring Dashboard
+![Grafana](screenshots/grafana.png)
 ![Grafana](screenshots/grafana-dashboard.png)
 
 
