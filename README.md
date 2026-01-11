@@ -48,8 +48,11 @@ GitHub → Jenkins → Docker → Kubernetes → Monitoring
 ---
 
 ## 📸 Screenshots
+## Jenkins pipeline Dashboard
 ## Monitoring Dashboard
+![Jenkins](screenshots/jenkins-dashboard.png)
 ## Monitoring Dashboard
+
 ![Grafana](screenshots/grafana.png)
 ![Grafana](screenshots/grafana-dashboard.png)
 
