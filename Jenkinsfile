@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "cicd-demo:latest"
     }
-
+#
     stages {
 
         stage('Clone Code') {
