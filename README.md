@@ -1,4 +1,4 @@
-# 🚀 Production-Grade CI/CD Platform on AWS
+#  Production-Grade CI/CD Platform on AWS
 
 ## Project Overview
 Designed and implemented a production-grade CI/CD pipeline using Jenkins, Docker, Kubernetes, and AWS. The pipeline automates build, deployment, rollback, and monitoring of a containerized application.
